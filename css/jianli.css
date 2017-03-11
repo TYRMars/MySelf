@@ -1,0 +1,103 @@
+body{ 
+    background-color:#f3f3f6; 
+} 
+
+.clear{
+    height:0px;font-size:0;clear:both; 
+} 
+/*head*/ 
+.header{ 
+    background-color:#6356e5; 
+    width:960px; 
+    height:300px;
+    margin:50px auto 0px auto;
+    border-radius:20px 20px 0px 0px;
+}
+.lheader{
+    float:left;
+    width:590px; 
+    height:300px;
+}
+.lhf{
+    width:590px;
+    height:100px;
+    padding:15px 30px 0px 30px;
+}
+.lhs{
+    width:590px;
+    height:200px;
+    padding:0px 30px 30px 30px;
+}
+.rheader{
+    float:right;
+    width:300px;
+    height:300px;
+    padding:40px 45px 0px 0px;
+}
+/*myname*/
+.myname{ 
+    font-family:"黑体";
+    font-size: 50px;
+    font-weight:bold;
+    font-style: normal;
+    color:white;
+    float:left; 
+    margin-left:20px;
+    margin-top:20px;
+}
+.myphoto{
+    float:right;
+	width:220px;
+    height:220px;
+    border-radius:50%;
+	border:5px solid white;
+	
+}
+/*container*/ 
+.news{
+    font-family:"黑体";
+    font-size: 20px;
+	color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+	padding:inherit;
+}
+.news1{
+    font-family:"黑体";
+    font-size: 20px;
+	color:black;
+}
+h3{
+	font-family:"黑体";
+	color:black;
+}
+.container{ 
+    background-color:while; 
+    width:960px; 
+    height:auto; 
+    margin:0px auto 20px auto;
+    border-radius:0px 0px 20px 20px;
+	padding:25px;
+	border:1px solid #6356e5;
+} 
+.cl{
+	
+	float:left;
+	width:550px;
+	height:900px;
+    border-radius:0px 0px 0px 20px;
+	padding:15px 30px 0px 40px;
+}
+.cr{
+	
+	float:right;
+	width:360px;
+	height:900px;
+    border-radius:0px 0px 20px 00px;
+	padding:15px 30px 0px 40px;
+	
+}
+/*color*/
+.mycolor{
+	background-color:#6356e5;
+}
