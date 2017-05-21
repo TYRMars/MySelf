@@ -18,7 +18,7 @@ header
 
 nav
 {
-    background: transparent;
+    background: rgba(0,0,0,0.5);
     height: 50px;
 }
 
@@ -340,4 +340,37 @@ ul.share-group
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
+}
+
+#sidebar
+{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background: #333;
+    padding-top: 30px;
+}
+
+#sidebar ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul li a
+{
+    color: #daad86;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration:none;
+    width: 100%;
+}
+
+#sidebar ul li a:hover
+{
+    background: #444;
 }
