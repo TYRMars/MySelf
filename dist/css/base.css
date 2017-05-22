@@ -98,6 +98,7 @@ nav .logo a
      font-size: 18px;
      letter-spacing: 1px;
  }
+
 .main-btn
 {
     border: none;
@@ -385,4 +386,17 @@ ul.share-group
 #sidebar ul li a:hover
 {
     background: #444;
+}
+
+.backtotop
+{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #daad86;
+    padding: 10px 10px;
+    background: #444;
+    border: 1px solid #daad86;
+    cursor: pointer;
 }
