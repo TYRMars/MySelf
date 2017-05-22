@@ -343,15 +343,27 @@ ul.share-group
     overflow: hidden;
 }
 
+.mask
+{
+    display: none;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    background: rgba(0,0,0,0.3);
+}
+
 #sidebar
 {
     position: fixed;
     top:0;
     bottom: 0;
-    right: 0;
+    right: -300px;
     width: 300px;
     background: #333;
     padding-top: 30px;
+    transition: right 0.5s;
 }
 
 #sidebar ul
