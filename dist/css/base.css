@@ -392,7 +392,7 @@ ul.share-group
 {
     display: none;
     position: fixed;
-    bottom: 30px;
+    bottom: 100px;
     right: 30px;
     color: #daad86;
     padding: 10px 10px;
